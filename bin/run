@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "balancing_act"
+
+# if no arguments are passed to the terminal command, then this raises an
+# exception to skip any code execution
+raise ArgumentError.new("Must pass in at least on 'server:size' option.") if ARGV.empty?
+
+BalancingAct::Balancer.process(ARGV)
