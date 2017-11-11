@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+# 1. Clone repo locally
+git clone git@github.com:zacscodingclub/balancing_act.git
+# 2. move into that new directory
+cd balancing_act
+# 3. Install
+bin/setup
+# 4. call executable with args
+bin/balancing_act X:3 Y:1 
+```
+
+
 
 ## Development
 
